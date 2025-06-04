@@ -9,6 +9,10 @@ function sayHello($name) {
 	echo "Hello $name!";
 }
 
+function element($type) {
+	return "<$type>";
+}
+
 ?>
 
 <html>
@@ -19,8 +23,11 @@ function sayHello($name) {
 		<?php 
 		
 		sayHello('remote world');
+
+		echo element("br");
+		echo "testing"
 			
-		phpinfo(); 
+		// phpinfo(); 
 			
 		?>
 	</body>
