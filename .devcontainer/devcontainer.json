@@ -19,5 +19,6 @@
 			"label": "Remote PHP Server",
 			"onAutoForward": "notify"
 		}
-	}
+	},
+	"forwardPorts": [8080]
 }
