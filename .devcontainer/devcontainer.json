@@ -12,9 +12,11 @@
 			]
 		}
 	},
+	"postCreateCommand": "sudo chmod a+x \"$(pwd)/src\" && sudo rm -rf /var/www/html && sudo ln -s \"$(pwd)/src\" /var/www/html",
+	"postStartCommand": "sudo apache2ctl start",
 	"portsAttributes": {
-		"8000": {
-			"label": "Hello Remote World",
+		"8080": {
+			"label": "Remote PHP Server",
 			"onAutoForward": "notify"
 		}
 	}
