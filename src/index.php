@@ -1,3 +1,14 @@
+<?php
+
+$test = "Test";
+try {
+    $mysqli = mysqli_connect("localhost:3000");
+} catch (Exception $e) {
+    $mysqli = "Refused: " . $e;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +21,9 @@
     <p>Edit index.php to get started</p>
     <p>
         <?php
-            echo "Hello World"
+            echo "Hello World <hr style=\"width: 100%\">";
+            echo $mysqli;
+            echo phpinfo()
         ?>
     </p>
 </body>

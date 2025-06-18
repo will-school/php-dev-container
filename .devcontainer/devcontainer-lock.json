@@ -1,0 +1,24 @@
+{
+  "features": {
+    "ghcr.io/devcontainers-extra/features/mysql-homebrew:1": {
+      "version": "1.0.21",
+      "resolved": "ghcr.io/devcontainers-extra/features/mysql-homebrew@sha256:40b85fe74a4aad094599d7df1bc5e1958b5ca1f5611a61fc2fc1275c54cdabd7",
+      "integrity": "sha256:40b85fe74a4aad094599d7df1bc5e1958b5ca1f5611a61fc2fc1275c54cdabd7"
+    },
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "version": "2.5.3",
+      "resolved": "ghcr.io/devcontainers/features/common-utils@sha256:3cf7ca93154faf9bdb128f3009cf1d1a91750ec97cc52082cf5d4edef5451f85",
+      "integrity": "sha256:3cf7ca93154faf9bdb128f3009cf1d1a91750ec97cc52082cf5d4edef5451f85"
+    },
+    "ghcr.io/devcontainers/features/git:1": {
+      "version": "1.3.3",
+      "resolved": "ghcr.io/devcontainers/features/git@sha256:d2d768ecc06f6b71ecd0820408c6272de2cc24427fe07921d93ede5c7775ad1d",
+      "integrity": "sha256:d2d768ecc06f6b71ecd0820408c6272de2cc24427fe07921d93ede5c7775ad1d"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "1.6.2",
+      "resolved": "ghcr.io/devcontainers/features/node@sha256:36c03732c3421f11de7a3eefc7e9a7fb3df123cb2e48b115d61fdfe8994911d9",
+      "integrity": "sha256:36c03732c3421f11de7a3eefc7e9a7fb3df123cb2e48b115d61fdfe8994911d9"
+    }
+  }
+}
