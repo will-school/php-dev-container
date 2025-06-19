@@ -1,14 +1,3 @@
-<?php
-
-$test = "Test";
-try {
-    $mysqli = mysqli_connect("localhost:3000");
-} catch (Exception $e) {
-    $mysqli = "Refused: " . $e;
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +11,14 @@ try {
     <p>
         <?php
             echo "Hello World <hr style=\"width: 100%\">";
-            echo $mysqli;
+            
+            try {
+                $mysqli = mysqli_connect("localhost:3306", "root", "vscode");
+                echo "Connection successful";
+            } catch (Exception $e) {
+                echo "Exception occoured connecting to database: <br>" . $e;
+            }
+
             echo phpinfo()
         ?>
     </p>
